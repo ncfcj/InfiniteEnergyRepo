@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace RepoInfiniteEnergy;
 
-[BepInPlugin("NiltonCosta.RepoInfiniteEnergy", "RepoInfiniteEnergy", "1.0")]
+[BepInPlugin("NiltonCosta.RepoInfiniteEnergy", "RepoInfiniteEnergy", "1.0.1")]
 public class RepoInfiniteEnergy : BaseUnityPlugin
 {
     internal static RepoInfiniteEnergy Instance { get; private set; } = null!;
