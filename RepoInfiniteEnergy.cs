@@ -6,7 +6,6 @@ using UnityEngine;
 namespace RepoInfiniteEnergy;
 
 [BepInPlugin("NiltonCosta.RepoInfiniteEnergy", "RepoInfiniteEnergy", "1.0")]
-[BepInDependency(REPOLib.MyPluginInfo.PLUGIN_GUID, BepInDependency.DependencyFlags.HardDependency)]
 public class RepoInfiniteEnergy : BaseUnityPlugin
 {
     internal static RepoInfiniteEnergy Instance { get; private set; } = null!;
